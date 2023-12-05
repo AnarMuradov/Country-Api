@@ -1,0 +1,23 @@
+:root {
+    --main-txt-color: black;
+    --main-bg-color: white;
+  }
+
+.dark{
+    --main-txt-color: white;
+    --main-bg-color: black;
+    transition: 500ms;
+}
+body{
+    transition: 500ms;
+    color: var(--main-txt-color);
+    background-color: var(--main-bg-color);
+}
+button{
+    color: inherit;
+    background-color: inherit;
+    border-color: var(--main-bg-color);
+}
+.country{
+    background-color: white;
+}
